@@ -6,3 +6,4 @@ Hadoop is an open source framework over Google MapReduce big-data paper. Due to 
 - Hadoop 3, avoiding all the hassling of org.apache.hadoop.mapre or org.apache.hadoop.mapreduce
 - Vscode IDE tempalte with gitignore
 - Vscode in-IDE real-time debugger launch.json
+- Maven
