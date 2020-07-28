@@ -9,7 +9,7 @@ import org.apache.hadoop.mapreduce.Reducer;
 public class LogIPDateCountCombiner
         extends Reducer<LogIPDateCountCompositeKeyWritable, LongWritable, LogIPDateCountCompositeKeyWritable, LongWritable> {
 
-    //private LogIPDateCountCompositeKeyWritable intermediateKey = new LogIPDateCountCompositeKeyWritable();
+    //private LogIPDateCountCompositeKeyWritable intermediateKey = new LogIPDgitateCountCompositeKeyWritable();
     private LongWritable intermediateValue = new LongWritable();
     @Override
     public void reduce(LogIPDateCountCompositeKeyWritable key, Iterable<LongWritable> values, Context context)

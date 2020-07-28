@@ -18,3 +18,4 @@ Hadoop is an open source framework over Google MapReduce big-data paper. Due to 
 - Open `src/main/java/org/neu/DriverClass.java` in VSCode
 - Click `Debug` upon the `public static void main(...`
   - You may want to set a break point before debugging by clicking the line number in left side of the IDE
+![Screenshot](./doc/debugging-vscode.png)
